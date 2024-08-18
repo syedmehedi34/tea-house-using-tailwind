@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- google font cdn  -->
-     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- -----------------------------
+    .manrope-font {
+        font-family: "Manrope", sans-serif;
+      }
+    ----------------------------- -->
+
     <!-- Tailwind CDN  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -24,8 +33,49 @@
       </script>
 
 
+      <!-- css file  -->
+       <link rel="stylesheet" href="style.css">
+
+
 </head>
-<body>
+<body class="px-20 py-16 ">
+
+    <header>
+        <!-- hero section  -->
+        <section class="grid grid-cols-2 gap-2 items-center	justify-center pb-20">
+            <!-- text section  -->
+            <div>
+                <h1 class="text-6xl text-[#1C1C1C]">It's good <br>tea time at The <br>Tea House</h1>
+                <p class="text-xs text-[#777777] w-3/4 py-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 p-4 rounded-lg	">
+                    Explore More
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <!-- image section  -->
+             <div class="relative">
+                <div>
+                    <img src="images/banner.png" alt="">
+                </div>              
+                <!-- review section  -->
+                <div class="flex items-center gap-2 shadow-lg px-4 py-2 absolute bottom-2 left-16 bg-white rounded-lg">
+                    <i class="fa-solid fa-star"></i>
+                    <div>
+                        <h2>5.00</h2>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>  
+
+
+             </div>
+        </section>
+    </header>
+
+
+
+
+
     
 </body>
 </html>
